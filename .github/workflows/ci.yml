@@ -39,8 +39,8 @@ jobs:
       - name: Go Style Check
         run: test -z $(go fmt ./...)
 
-      - name: Run statc check
-        run: static ./...
+      - name: Run static check
+        run: staticcheck ./...
     
 
         
